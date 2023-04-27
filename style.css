@@ -6,10 +6,47 @@
     font-family: 'Amiri', serif;
 
 }
+.wat{
+    position: absolute;
+    left: 10%;
+}
+.phone {
+    text-align: left;
+  }
+  
+  .numbers {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .phone {
+      text-align: center;
+    }
+  
+    .numbers {
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+  }
+  
+
+.logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
 body{
     background-color: #f3f3f3;
     font-family: 'Poppins',sans-serif;
 }
+
 .fd{
     position: absolute;
     width: 20%;
@@ -88,3 +125,49 @@ body{
     border-radius: 5px;
     width: 180px;
 }
+
+
+
+footer {
+    background-color: #cb202d;
+    color: #fff;
+    padding: 20px;
+    height: 200px;
+
+  }
+  
+  .container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .wat {
+    margin-bottom: 20px;
+    
+  }
+  
+  .phone {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .adr{
+    margin-left: 150px;
+  }
+  .numbers {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .address {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .tit{
+    font-size: 2rem;
+  }
+  
